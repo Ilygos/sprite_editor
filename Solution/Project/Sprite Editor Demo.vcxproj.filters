@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\ImGui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui_impl_glfw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui_impl_opengl3.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImGui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\gl3w\GL\gl3w.c">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Preview.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FileBrowser.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Element.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ImGui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui_impl_glfw.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui_impl_opengl3.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\gl3w\GL\gl3w.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\gl3w\GL\glcorearb.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImGui\imconfig.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Preview.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="FileBrowser.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Element.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\MaxMaths.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\stb_image.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+    <None Include="..\..\misc\natvis\imgui.natvis">
+      <Filter>Imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{7b05a45c-5bc7-4d47-99a5-1a91a6bdb30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{6d79b39f-3df5-4cff-a721-55f783f13ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{c6cc3e76-a4a5-449e-8818-510b9e83b063}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
