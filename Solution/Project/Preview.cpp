@@ -37,7 +37,6 @@ void Preview::execute()
 {
 	ImGui::Text("Name: %s", m_element->m_name);
 
-
 	ImGui::SetNextItemWidth(ImGui::GetWindowSize().x * 0.4f);
 	ImGui::SliderFloat("PosX", &(m_element->m_transform.x), 0, 2, "%.2f");
 	ImGui::SetNextItemWidth(ImGui::GetWindowSize().x * 0.4f);
@@ -51,7 +50,8 @@ void Preview::execute()
 	ImGui::SliderFloat("ScaleY", &(m_element->m_scale.y), 0, 2, "%.1f");
 
 	ImGui::Text("size = %d x %d", m_element->m_size.x, m_element->m_size.y);
-	ImGui::Image((void*)(intptr_t)m_texID, ImVec2(m_element->m_size.x * m_element->m_scale.x, m_element->m_size.y * m_element->m_scale.y));
+	ImGui::Image((void*)(intptr_t)m_texID, ImVec2(1024, 1024));
+	//ImGui::Image((void*)(intptr_t)m_texID, ImVec2(m_element->m_size.x * m_element->m_scale.x, m_element->m_size.y * m_element->m_scale.y));
 }
 
 void Preview::init()
