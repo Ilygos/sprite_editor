@@ -33,17 +33,14 @@
 
 # Visual Studio
 .vs/
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+Solution/Project/[Dd]ebug/
+Solution/Project/[Dd]ebugPublic/
+Solution/Project/[Rr]elease/
+Solution/Project/[Rr]eleases/
+Solution/Project/x64/
+Solution/Project/x86/
+Solution/Project/[Bb]in/
+Solution/Project/[Oo]bj/
+Solution/Project/[Ll]og/
+Solution/Project/[Ll]ogs/
+
